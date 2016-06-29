@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Centro Educacional Carpe Diem</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/Javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/Javascript" src="js/jquery.easyslides.min.v1.1.js"></script>
+        <script type="text/Javascript" src="js/easyslides.js"></script>
+        <script type="text/Javascript" src="js/menu.js"></script>
+        <link href="css/master.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href ="css/Mobile.css" type="text/css" media="all and (max-width: 320px)"/>
+        <link rel="stylesheet" href ="css/Tablet.css" type="text/css" media="all and (min-width: 321px) and (max-width: 960px)"/>
+    </head>
+    <body>
+        <div class="rede-social">
+            <div class="container rede-social">
+                <input type="text" name="busca" />
+                <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+                <a href="#"><img src="images/lupa.png" alt="Pesquisar" /></a>
+            </div>
+        </div>
+        <header class="row-fluid cabecalho">
+            <img src="images/logo.png" alt="Centro Educacional Carpe Diem" />
+            <div class="row-fluid color-top"></div>
+            <nav class="row-fluid menu-principal">
+                <div class="container nav">
+                    <ul>
+                        <li>:<a href="#">Home</a>:</li>
+                        <li>:<a href="#">Institucional</a>:</li>
+                        <li>:<a href="#">Notícias</a>:</li>
+                        <li>:<a href="#">Secretaria</a>:</li>
+                        <li>:<a href="#">Biblioteca</a>:</li>
+                        <li>:<a href="#">Projetos Sociais</a>:</li>
+                        <li>:<a href="#">Contato</a>:</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="row-fluid container content">
+            <div class="left">
+                <div id="easy-container" class="easy-slides-container"></div>
+            </div>
+            <div class="right">
+                <div class="quadro_avisos">
+                    <img src="images/avisos3.png" alt="Imagem"/>
+                    <h4>QUADRO DE AVISOS</h4>
+                    <p><strong>Semana de Provas Carpe Diem</strong></p>
+                    <p>Pais e alunos fiquem atentos ao calêndario de provas</p>
+                    <p><strong>Semana de Pegar Boletim</strong></p>
+                    <p>Pais e alunos fiquem à aprovação do bimestre</p>
+                </div>
+                <div class="link">
+                    <a href="#">AVISOS ANTERIORES</a>
+                    <img src="images/mais.png" alt="Avisos Anteriores" />
+                </div>
+                <nav class="menu-sec">
+                    <ul>
+                        <li><a href="#">Nossa Escola</a></li>
+                        <li><a href="#">Educação Infantil</a></li>
+                        <li><a href="#">Ensino Fundamental I</a></li>
+                        <li><a href="#">Ensino Fundamental II</a></li>
+                        <li><a href="#">Ensino Médio</a></li>
+                        <li><a href="#">Cursos Profissionalizantes</a></li>
+                        <li><a href="#">Cursos Técnicos</a></li>
+                        <li><a href="#">Cursos Pós Graduação</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <footer class="row-fluid">
+            <div class="row-fluid school">
+                <div class="container">
+                    Centro Educacional Carpe Diem                 </div>
+            </div>
+            <div class="row-fluid cols">
+                <div class="container">
+                    <div class="col color1">
+                        <h3>Unidades</h3>
+                        <p><a href="#">Carpe Diem Matriz</a></p>
+                        <p><a href="#">Carpe Diem Orla</a></p>
+                        <p><a href="#">Carpe Diem Mangaba</a></p>
+                        <p><a href="#">Carpe Diem Dias D'Ávila</a></p>
+                    </div>
+                    <div class="col color2">
+                        <h3>Institucional</h3>
+                        <p><a href="#">História</a></p>
+                        <p><a href="#">Missão</a></p>
+                        <p><a href="#">Visão</a></p>
+                        <p><a href="#">Valores</a></p>
+                    </div>
+                    <div class="col color3">
+                        <h3>Informações</h3>
+                        <div class="border1">
+                            <div class="border2">
+                                <p>Fale com o <a href="#">Diretor</a></p>
+                                <img src="images/ceo.png" alt="Fale com o Diretor" class="img-ceo" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col color4">
+                        <h3>Seu Espaço</h3>
+                        <div class="border1">
+                            <div class="border2">
+                                <p>Área do <a href="#">Aluno</a></p>
+                                <img src="images/aluno.png" alt="Área do Aluno" class="img-aluno" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
